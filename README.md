@@ -1,1 +1,5 @@
 # Mango_variety_price_machine_learning
+As the mango season approaches, I and my two other team mates started wondering how the mangoes are brought and sold in the international market. How do the export/import buyers and sellers, virtually verify the type of mango, and dynamically decide the prices for a particular mango shipment. A huge use case today in the agritech field is for remote monitoring and remote purchase/sale of goods.
+
+Project Outcome - 
+We started creating this project with the following outcome in mind: Given an image of a mango as input, we first classify and show the probability of the mango belonging to a particular variety. Once we predict the variety, we also input other parameters like state, district, market, date/month of sale of that particular mango or product group from the end user. Next our project considers all these parameters along with the classification output it had presented to apply regression model and predict the price for that particular good. This way, when an buyer/seller in the market simply captures the image of mango, he/she will be able to identify the variety and fair price of the product.
